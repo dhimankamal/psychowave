@@ -1,0 +1,102 @@
+@media screen and (max-width: 1024px) {
+  .appointment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .call > p {
+    font-size: 1vw;
+  }
+  .header ul li {
+    font-size: 1vw;
+  }
+  .appointment div {
+    margin: 0px;
+    margin-bottom: 0.5vw;
+  }
+  .appointment div p {
+    font-size: 2vw;
+  }
+  .navbar > div {
+    margin-left: 10vw;
+  }
+  .appointment div button {
+    width: 20vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+  }
+  .box {
+    flex-direction: column;
+    
+  }
+  .box > div {
+    width: 42vw;
+    height: 18vh;
+    background-color:none;
+  
+    margin-top: 3vmin;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0vmin;
+    position: relative;
+    left: 0vmin;
+    transform-origin: left top center;
+    transform: perspective(0vmin) rotateY(0deg);
+    transition: 0.5s ease 0s;
+    background-color: transparent;
+    
+    
+  }
+  #academy {
+    background-color:transparent;
+    box-shadow: none;
+  }
+  #academy >button{
+    background-color: #ffdc50;
+    
+  }
+  #clinic {
+    box-shadow: none;
+  }
+  #clinic >button{
+    background-color: #026584;
+    
+  }
+
+  .box > div > div {
+    width: 32vw;
+    height: 18vh;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    border-width: 8px 0px 8px 8px;
+    border-radius: 20px 0px 0px 20px;
+    border-color: #272727;
+    position: absolute;
+    left: 2vw;
+    padding: 2vw;
+    padding-left: 1vw;
+    padding-right: 4vw;
+    
+  }
+  .clickbtn {
+    margin-top:0%;
+    border-style: none;
+    background-color: white;
+    border-radius: 20px;
+    width: 18vw;
+    height: 20vh;
+    font-size: 4vw;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: -.8vw;
+    left: 30vw;
+  }
+}
